@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+.logo {
+  position: fixed;
+  top: 5%;
+  left: 66px;
+  z-index: 40;
+  font-family: 'Sen', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: 060606;
+  border: 1px solid white;
+  padding: 14px 10px;
+  font-size: 16px;
+  font-weight: lighter;
+
+  &.light {
+    color: white;
+    border: 1px solid #060606;
+    background-color: #060606;
+  }
+
+  @media (max-width: 768px) {
+    left: 32px;
+    top: 32px;
+  }
+}
